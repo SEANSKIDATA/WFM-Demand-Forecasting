@@ -1,9 +1,30 @@
 # WFM Demand Forecasting Model
 
-**Interval-level intraday call volume forecasting, shrinkage modeling, Erlang C service-level estimation, and FTE gap analysis to support contact-center staffing optimization.**
+Interval-level intraday call volume forecasting, shrinkage modeling, Erlang C 
+service-level estimation, and FTE gap analysis to support contact-center 
+staffing optimization.
 
-This project demonstrates an end-to-end Workforce Management (WFM) forecasting and capacity-planning methodology in Python, applied to a real, published call-center arrival dataset. It walks the same planning cycle a WFM analyst runs in a production contact center — from raw interval arrivals through to a staffing gap report and the service level a given schedule would actually deliver.
+## The finding that drives this project
 
+Total scheduled staffing landed within **~2% of daily requirement** — yet the 
+schedule left **53% of intervals understaffed and 44% overstaffed**, holding 
+delivered service level below the 80/20 target all day.
+
+The headcount was right. The *intraday distribution* was wrong.
+
+That gap — invisible to anyone reading only daily or weekly totals — is what 
+interval-level WFM forecasting exists to catch. The aggregate looked fine on 
+paper. The floor was understaffed more than half the day.
+
+**Method:** profile-ratio interval forecast (**21.2% WAPE** on holdout) → 
+Erlang C sizing to 80/20 → 34% shrinkage build-up → interval-by-interval 
+FTE gap report. Real published arrival data (Technion SEE Lab, 87,600 rows); 
+WFM overlay synthetic and labeled as such throughout.
+
+---
+
+This project demonstrates an end-to-end Workforce Management (WFM) forecasting 
+and capacity-planning methodology in Python...
 ---
 
 ## What it demonstrates
