@@ -53,7 +53,9 @@ My WFM experience is founder-era (a 350-agent call center, intraday management, 
 
 ## Provenance & honesty notes
 
-- The **arrival data is real**; the **WFM overlay is synthetic and labeled as such** throughout the notebook — Average Handle Time (240s), the 34% shrinkage build-up, the 80/20 service-level target, the 90% occupancy ceiling, and the shift schedule are explicit planning assumptions, not values derived from the data.
+- The **arrival data is real**; the **WFM overlay is synthetic and labeled as such** throughout the notebook
+-  ![Staffing Gap Chart](staffing_gap_chart.png)
+- — Average Handle Time (240s), the 34% shrinkage build-up, the 80/20 service-level target, the 90% occupancy ceiling, and the shift schedule are explicit planning assumptions, not values derived from the data.
 - **Business logic, WFM domain framing, and operational assumptions are my own**, drawn from contact-center workforce-management experience. AI tooling assisted with Python syntax and plotting code.
 
 ## Stack
