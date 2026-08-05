@@ -21,10 +21,13 @@ Erlang C sizing to 80/20 → 34% shrinkage build-up → interval-by-interval
 FTE gap report. Real published arrival data (Technion SEE Lab, 87,600 rows); 
 WFM overlay synthetic and labeled as such throughout.
 
+![Staffing Gap Chart](staffing_gap_chart.png)
 ---
 
 This project demonstrates an end-to-end Workforce Management (WFM) forecasting 
 and capacity-planning methodology in Python...
+
+
 ---
 
 ## What it demonstrates
@@ -54,7 +57,6 @@ My WFM experience is founder-era (a 350-agent call center, intraday management, 
 ## Provenance & honesty notes
 
 - The **arrival data is real**; the **WFM overlay is synthetic and labeled as such** throughout the notebook
--  ![Staffing Gap Chart](staffing_gap_chart.png)
 - — Average Handle Time (240s), the 34% shrinkage build-up, the 80/20 service-level target, the 90% occupancy ceiling, and the shift schedule are explicit planning assumptions, not values derived from the data.
 - **Business logic, WFM domain framing, and operational assumptions are my own**, drawn from contact-center workforce-management experience. AI tooling assisted with Python syntax and plotting code.
 
