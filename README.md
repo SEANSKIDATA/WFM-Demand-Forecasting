@@ -1,5 +1,7 @@
 # WFM Demand Forecasting Model
 
+![WFM Demand Forecasting Model](wfm-demand-forecasting-hero.png)
+
 Interval-level intraday call volume forecasting, shrinkage modeling, Erlang C 
 service-level estimation, and FTE gap analysis to support contact-center 
 staffing optimization.
