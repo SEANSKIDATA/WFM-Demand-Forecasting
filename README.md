@@ -8,7 +8,7 @@ staffing optimization.
 
 ## What this project shows
 
-A schedule can be within **2% of the day's staffing requirement** and still
+A schedule can be within 2% of its staffing requirement during staffed hours and still
 miss service level badly, because the hours are in the wrong intervals.
 
 Forecasting real 1999 bank call-center arrivals and sizing each 30-minute
